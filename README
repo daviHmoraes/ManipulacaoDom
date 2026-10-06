@@ -1,32 +1,55 @@
 # Projeto: Lista de Tarefas Modular
-**Curso:** Técnico em Informática para a Internet
-**Dupla:** João Victor Junckes Ullmann & Davi Heinzen de Moraes
----
-## 📚 Diário de Aprendizagem e Documentação do Projeto
-### 1. Estrutura do DOM e Seletores
-* **Conceito de DOM e Nós (Explicado por Joao
-):**
-> *O que DOM
-O DOM é uma representação do HTML que o JavaScript consegue modificar. 
 
-Podemos imaginar o DOM como uma árvore, o elemento html fica no começo e dentro dele existem outros elementos, como div, h1, <button... Cada parte dessa árvore é chamada de nó*
-* **Métodos de Seleção (Explicado po Joao
-):**
-> *Funcionamento querySelector
-Os seletores sao usados para encontrar elementos HTML pelo JavaScript, o querySelector encontra o primeiro elemento que corresponde ao seletor informado,
-e o querySelectorAll pega todos que corresponde ao elemento informado.
-Também é utilizado o atributos data-*, como data-input e data-button, para ver o que sera utilizado pelo JavaScript.
-*
+**Curso:** Técnico em Informática para a Internet
+
+**Dupla:** João Victor Junckes Ullmann & Davi Heinzen de Moraes
+
 ---
+
+## 📚 Diário de Aprendizagem e Documentação do Projeto
+
+### 1. Estrutura do DOM e Seletores
+
+- **Conceito de DOM e Nós (Explicado por João):**
+
+> **O que é DOM?**
+>
+> O DOM é uma representação do HTML que o JavaScript consegue modificar.
+>
+> Podemos imaginar o DOM como uma árvore. O elemento `html` fica no começo e, dentro dele, existem outros elementos, como `div`, `h1`, `button`, entre outros.
+>
+> Cada parte dessa árvore é chamada de nó.
+
+- **Métodos de Seleção (Explicado por João):**
+
+> **Funcionamento do `querySelector`**
+>
+> Os seletores são usados para encontrar elementos HTML pelo JavaScript.
+>
+> O `querySelector` encontra o primeiro elemento que corresponde ao seletor informado.
+>
+> Já o `querySelectorAll` pega todos os elementos que correspondem ao seletor informado.
+>
+> Também são utilizados os atributos `data-*`, como `data-input` e `data-button`, para identificar o que será utilizado pelo JavaScript.
+
+---
+
 ### 2. Eventos e Manipulação de Inputs
-* **Escutadores de Eventos e preventDefault (Explicado por Davi
-):**
-> *O que é addEventListener *
-O addEventListener() permite que o JavaScript fique esperando uma ação do usuário,
-tambem utilizamos o preventDefault() para impedir comportamentos padrões do navegador.
-* **Captura e Limpeza de Inputs (Explicado por Davi
-):**
-> *O que são o .value() e .trim()
-O .value serve para puxar algum dado inserido em um input,
-e o trim serve para remover espaços desnecessários no começo e no final de um texto
-*
+
+- **Escutadores de Eventos e `preventDefault` (Explicado por Davi):**
+
+> **O que é `addEventListener`?**
+>
+> O `addEventListener()` permite que o JavaScript fique esperando uma ação do usuário.
+>
+> Também utilizamos o `preventDefault()` para impedir comportamentos padrão do navegador.
+
+- **Captura e Limpeza de Inputs (Explicado por Davi):**
+
+> **O que são `.value` e `.trim()`?**
+>
+> O `.value` serve para pegar algum dado inserido em um `input`.
+>
+> O `.trim()` serve para remover espaços desnecessários no começo e no final de um texto.
+
+---
