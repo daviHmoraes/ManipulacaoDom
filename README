@@ -10,7 +10,7 @@
 O DOM é uma representação do HTML que o JavaScript consegue modificar. 
 
 Podemos imaginar o DOM como uma árvore, o elemento html fica no começo e dentro dele existem outros elementos, como div, h1, <button... Cada parte dessa árvore é chamada de nó*
-* **Métodos de Seleção (Joao
+* **Métodos de Seleção (Explicado po Joao
 ):**
 > *Funcionamento querySelector
 Os seletores sao usados para encontrar elementos HTML pelo JavaScript, o querySelector encontra o primeiro elemento que corresponde ao seletor informado,
@@ -18,3 +18,15 @@ e o querySelectorAll pega todos que corresponde ao elemento informado.
 Também é utilizado o atributos data-*, como data-input e data-button, para ver o que sera utilizado pelo JavaScript.
 *
 ---
+### 2. Eventos e Manipulação de Inputs
+* **Escutadores de Eventos e preventDefault (Explicado por Davi
+):**
+> *O que é addEventListener *
+O addEventListener() permite que o JavaScript fique esperando uma ação do usuário,
+tambem utilizamos o preventDefault() para impedir comportamentos padrões do navegador.
+* **Captura e Limpeza de Inputs (Explicado por Davi
+):**
+> *O que são o .value() e .trim()
+O .value serve para puxar algum dado inserido em um input,
+e o trim serve para remover espaços desnecessários no começo e no final de um texto
+*
