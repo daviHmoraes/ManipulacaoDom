@@ -1,0 +1,20 @@
+# Projeto: Lista de Tarefas Modular
+**Curso:** Técnico em Informática para a Internet
+**Dupla:** João Victor Junckes Ullmann & Davi Heinzen de Moraes
+---
+## 📚 Diário de Aprendizagem e Documentação do Projeto
+### 1. Estrutura do DOM e Seletores
+* **Conceito de DOM e Nós (Explicado por Joao
+):**
+> *O que DOM
+O DOM é uma representação do HTML que o JavaScript consegue modificar. 
+
+Podemos imaginar o DOM como uma árvore, o elemento html fica no começo e dentro dele existem outros elementos, como div, h1, <button... Cada parte dessa árvore é chamada de nó*
+* **Métodos de Seleção (Joao
+):**
+> *Funcionamento querySelector
+Os seletores sao usados para encontrar elementos HTML pelo JavaScript, o querySelector encontra o primeiro elemento que corresponde ao seletor informado,
+e o querySelectorAll pega todos que corresponde ao elemento informado.
+Também é utilizado o atributos data-*, como data-input e data-button, para ver o que sera utilizado pelo JavaScript.
+*
+---
