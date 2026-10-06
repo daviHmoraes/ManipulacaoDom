@@ -57,3 +57,24 @@ O `.value` serve para pegar algum dado inserido em um `input`.
 O `.trim()` serve para remover espaços desnecessários no começo e no final de um texto.
 
 ---
+
+### 3. Criação e Remoção Dinâmica de Elementos
+
+* **Criação de Nós Dinâmicos (Explicado por Joao):**
+
+> *Como funcionam o `createElement()`, `classList.add()` e `appendChild()`?*
+
+O `createElement()` é utilizado para criar novos elementos HTML pelo JavaScript.
+
+O `classList.add()` adiciona uma classe CSS ao elemento criado, e o `appendChild()` coloca o elemento criado dentro de outro elemento.
+
+*
+* **Navegação no DOM e Exclusão (Explicado por Davi):**
+
+> *Como o `parentElement` localiza a tag pai e como o método `.remove()` apaga a tarefa?*
+
+O `parentElement` encontra o elemento pai de um elemento, e o `.remove()` remove um elemento da página.
+
+*
+---
+-
