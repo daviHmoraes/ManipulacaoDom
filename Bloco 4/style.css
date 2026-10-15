@@ -1,0 +1,197 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 50px 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+
+/* ===== TÍTULO ===== */
+
+h1 {
+    margin-bottom: 30px;
+
+    font-size: 32px;
+    color: #111827;
+}
+
+
+/* ===== FORMULÁRIOS ===== */
+
+form {
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 24px;
+    margin-bottom: 20px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ===== LABEL ===== */
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+
+    color: #374151;
+}
+
+
+/* ===== INPUT ===== */
+
+input {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    font-size: 15px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+
+/* ===== BOTÕES DOS FORMULÁRIOS ===== */
+
+form button {
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #2563eb;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+form button:hover {
+    background-color: #1d4ed8;
+}
+
+form button:active {
+    transform: scale(0.98);
+}
+
+
+/* ===== LISTA DE TAREFAS ===== */
+
+#lista {
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+
+/* ===== CARD DA TAREFA ===== */
+
+.tarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 18px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.07);
+
+    list-style: none;
+
+    transition: 0.2s;
+}
+
+.tarefa:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ===== TEXTO DA TAREFA ===== */
+
+.tarefa p {
+    margin: 0;
+
+    font-size: 16px;
+    color: #374151;
+}
+
+
+/* ===== BOTÃO EXCLUIR ===== */
+
+.tarefa button {
+    padding: 8px 12px;
+
+    border: none;
+    border-radius: 7px;
+
+    background-color: #ef4444;
+    color: white;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.tarefa button:hover {
+    background-color: #dc2626;
+}
+
+.tarefa button:active {
+    transform: scale(0.95);
+}
