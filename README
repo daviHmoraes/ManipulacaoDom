@@ -77,4 +77,25 @@ O `parentElement` encontra o elemento pai de um elemento, e o `.remove()` remove
 
 *
 ---
--
+
+### 4. Arquitetura Modular e Estilização
+
+* **Módulos JS com `import` e `export` (Explicado por Joao):**
+
+> *Por que utilizamos módulos?*
+
+Os módulos permitem dividir o código JavaScript em diferentes arquivos, deixando o projeto mais organizado.
+
+*
+
+* **Integração entre JS e CSS (Explicado por Davi):**
+
+> *Como o JavaScript utiliza o CSS?*
+
+O JavaScript pode adicionar e remover classes CSS utilizando o `classList`.
+
+O `classList.add()` adiciona uma classe e o `classList.remove()` remove uma classe.
+
+*
+
+---
