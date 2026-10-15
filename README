@@ -89,3 +89,5 @@ Os módulos permitem dividir o código JavaScript em diferentes arquivos, deixan
 O JavaScript pode adicionar e remover classes CSS utilizando o classList.
 
 O classList.add() adiciona uma classe e o classList.remove() remove uma classe.*
+
+---
